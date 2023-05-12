@@ -1,0 +1,306 @@
+@font-face {
+    font-family: century-gothic;
+    src: url('century-gothic.ttf');
+}
+
+#topo .logo {
+    height: 64px;
+}
+
+#topo a {
+    font-size: 18px;
+    margin-left: 0px;
+    color: black;
+}
+
+h2 {
+    font-family: century-gothic, serif;
+    text-align: center;
+    font-size: 72px;
+    color: #878484;
+}
+.credito-verde{
+    color: #b9fd52 !important;
+}
+#quemsomos {
+    padding: 70px 0px;
+}
+
+#quemsomos p {
+    font-size: 25px;
+    text-align: center !important;
+}
+
+.degrade {
+    padding: 70px 0px;
+    color: white;
+    background-image: linear-gradient(to right, #00cdc9, #b9fd52);
+}
+
+.degrade h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.degrade p {
+    font-size: 19px;
+    text-align: left !important;
+}
+
+#credito {
+    padding: 110px 0px;
+}
+
+.p-credito {
+    font-size: 25px !important;
+}
+
+#credito > .p-credito,
+.h3-credito {
+    font-size: 40px;
+    color: #00cdc9;
+    text-align: left !important;
+    font-weight: 900;
+}
+
+.blueicon {
+    background-color: #00cdc9;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+}
+
+.blueicon > img {
+    padding: 20px;
+}
+
+.box {
+    padding: 36px;
+    box-shadow: 2px 2px 7px RGBA(0, 0, 0, 0.2);
+    border: 3px solid #74d0c5;
+}
+
+.box > h4 {
+    text-align: center;
+    display: block !important;
+}
+
+.lista {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.img-box {
+    width: 64px !important;
+    height: 64px;
+}
+
+.space-blueicon {
+    margin: 40px 0px;
+}
+
+.bg {
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 522px;
+    margin-top: -522px;
+    padding-top: 100px;
+    background-image: linear-gradient(to right, #00cdc9, #b9fd52);
+    -webkit-clip-path: polygon(0% 0%, 52% 0, 57% 53%, 52% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 52% 0, 65% 53%, 52% 100%, 0% 100%);
+}
+
+#fintech {
+    height: 522px;
+    padding: 100px 0px;
+    background-image: url(../img/parallax-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#fintech h3 {
+    margin-left: 60%;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 2px 2px 17px RGBA(0, 0, 0, 0.5);
+    color: white;
+}
+
+#solicite {
+    height: 400px;
+    padding: 100px 0px;
+    background-image: url(../img/parallax-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background-color: #00cdc9;
+    background-size: cover;
+    padding-top: 163px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: -400px;
+    -webkit-clip-path: polygon(52% 0, 100% 0%, 100% 100%, 52% 100%, 44% 52%);
+    clip-path: polygon(52% 0, 100% 0%, 100% 100%, 52% 100%, 44% 52%);
+}
+
+.bg2 .button {
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    border: 4px solid white;
+}
+
+#parceiros {
+    padding: 50px 0px;
+}
+img{
+    width: 100%;
+}
+.grupo-de-parceiros{
+-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+filter: grayscale(100%);
+
+    width: 100% !important;
+}
+.grupo-de-parceiros:hover {
+-webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+     -o-filter: grayscale(0%);
+filter: grayscale(0%);
+
+    width: 100% !important;
+}
+
+#novidades {
+    padding: 70px 0px;
+}
+.h3-novi{
+    margin-top: 35px;
+}
+.p-novi{
+  font-size: 23px;
+}
+#contato {
+    background-color: #303030;
+    color: white;
+    padding: 50px 0px;
+}
+
+.info {
+    text-align: right;
+}
+@media screen and (min-width:769px) {
+    .mobile{
+        display: none;
+    }
+}
+@media screen and (max-width:769px) {
+    #parceiros,img {
+    width: 100% !important;
+        margin: 30px 0px;
+}
+    #contato , .info{
+        text-align: center !important;
+    }
+    .justify-content-end{
+        display: block;
+    }
+    #quemsomos p {
+        font-size: 19px;
+        text-align: center !important;
+    }
+    h2{
+        font-size: 50px !important;
+    }
+    .no-mobile {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .box-mobile {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    .esp-mob {
+        padding: 30px 0px;
+    }
+
+    .button-valores {
+        width: 100% !important;
+        font-size: 30px;
+        font-weight: 700;
+        border: 1px solid white;
+        padding: 10px 15px 32px 15px;
+        color: white;
+    }
+    .modo-1{
+        background-color: #00cdc9;
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: left;
+    }
+    .valor{
+        padding-top: 20px;
+        display: inline-block;
+    }
+    .parcela{
+        display: inline-block;
+    font-size: 25px !important;
+    }
+    .parcela img{
+        width: 24px;
+        height: 24px;
+    }
+    .modo-2{
+        background-color: #b9fd52;
+        text-align: right;
+        float: left;
+    }
+    .valores-parcelados{
+        text-align: center;
+        display: block;
+    }
+    .esp-mob p {
+        text-align: center;
+        padding: 30px;
+    }
+    .fintech{
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .credito-2{
+        padding: 100px 0px;
+        background-color: #00cdc9;
+    }
+    .credito-2 p{
+        text-align: center;
+        font-size: 23px;
+        font-weight: 600;
+        font-style: italic;
+        color: white;
+        margin-bottom: 50px;
+    }
+    .button{
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        border: 3px solid white;
+    }
+}
+
